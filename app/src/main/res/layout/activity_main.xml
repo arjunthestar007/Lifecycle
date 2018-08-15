@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
 
@@ -12,6 +13,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="anotheractivity"
-        android:layout_weight="1"
         android:text="go to another activity" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="addfragment"
+        android:text="add fragment"/>
+        />
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
 </LinearLayout>

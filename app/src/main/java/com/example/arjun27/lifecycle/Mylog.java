@@ -4,7 +4,7 @@ import android.util.Log;
 
 public class Mylog {
 
-    public static void activityprint(String TAG,String msg){
+    public static void print(String TAG, String msg){
 
         Log.d(TAG, msg);
     }

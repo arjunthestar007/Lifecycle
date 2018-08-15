@@ -14,22 +14,21 @@ public class AnotherActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        Mylog.activityprint(TAG,"onStart");
-
+        Mylog.print(TAG,"onStart");
     }
 
 
     @Override
     protected void onResume() {
         super.onResume();
-        Mylog.activityprint(TAG,"onResume");
+        Mylog.print(TAG,"onResume");
 
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        Mylog.activityprint(TAG,"onPause");
+        Mylog.print(TAG,"onPause");
 
     }
 
@@ -37,20 +36,20 @@ public class AnotherActivity extends AppCompatActivity {
     @Override
     protected void onStop() {
         super.onStop();
-        Mylog.activityprint(TAG,"onStop");
+        Mylog.print(TAG,"onStop");
     }
 
     @Override
     protected void onRestart() {
         super.onRestart();
-        Mylog.activityprint(TAG,"onRestart");
+        Mylog.print(TAG,"onRestart");
 
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Mylog.activityprint(TAG,"onDestroy");
+        Mylog.print(TAG,"onDestroy");
 
     }
 }
