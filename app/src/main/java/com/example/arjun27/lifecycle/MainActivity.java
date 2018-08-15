@@ -72,15 +72,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void addfragment(View view) {
 
-
         FragmentA fragmentA=FragmentA.newInstance();
         FragmentTransaction fragmentTransaction1 = fragmentManager.beginTransaction();
-
-        fragmentTransaction1.add(R.id.container, fragmentA);
-        fragmentTransaction1.addToBackStack("frag");
+        fragmentTransaction1.replace(R.id.container, fragmentA);
         fragmentTransaction1.commit();
-
-
     }
 
     @Override

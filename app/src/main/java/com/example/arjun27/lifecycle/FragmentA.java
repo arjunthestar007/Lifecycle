@@ -71,9 +71,7 @@ public class FragmentA extends Fragment {
             public void onClick(View view) {
                 FragmentB fragmentB =FragmentB.newInstance();
                 FragmentManager fragmentManager=getActivity().getSupportFragmentManager();
-
                 FragmentTransaction fragmentTransaction2 = fragmentManager.beginTransaction();
-
                 fragmentTransaction2.replace(R.id.container, fragmentB);
                 fragmentTransaction2.addToBackStack(null);
                 fragmentTransaction2.commit();
